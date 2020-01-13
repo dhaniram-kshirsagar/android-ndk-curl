@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/android-ndk-curl/app/.cxx/cmake/debug/x86'
+ninja: no work to do.

@@ -1,0 +1,3 @@
+/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/release/x86_64/CMakeFiles/hello-libs.dir

@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944/build/cmake/android.toolchain.cmake",
+    "/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944/build/cmake/platforms.cmake",
+    "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/android-ndk-curl/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/android-ndk-curl/app/.cxx/cmake/release/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/android-ndk-curl/app/.cxx/cmake/release/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "jni-curl-lib-Release-x86": {
+      "artifactName": "jni-curl-lib",
+      "buildCommand": "/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/android-ndk-curl/app/.cxx/cmake/release/x86\" jni-curl-lib",
+      "abi": "x86",
+      "output": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/android-ndk-curl/app/build/intermediates/cmake/release/obj/x86/libjni-curl-lib.so"
+    }
+  }
+}

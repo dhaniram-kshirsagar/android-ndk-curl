@@ -1,0 +1,7 @@
+Executable : /Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/android-ndk-curl/app/.cxx/cmake/debug/x86
+jni-curl-lib
+jvmArgs : 
+

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/debug/x86_64",
+  "command": "/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dhello_libs_EXPORTS -I/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/gmath/include -I/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/gperf/include -I/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/curl/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/hello-libs.dir/hello-libs.cpp.o -c /Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/hello-libs.cpp",
+  "file": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/hello-libs.cpp"
+}
+]

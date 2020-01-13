@@ -1,0 +1,143 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp",
+  "buildDirectory": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/release/armeabi-v7a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DANDROID_ABI\u003darmeabi-v7a",
+    "-DANDROID_PLATFORM\u003dandroid-16",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/build/intermediates/cmake/release/obj/armeabi-v7a",
+    "-DCMAKE_BUILD_TYPE\u003dRelease",
+    "-DANDROID_NDK\u003d/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a",
+    "-DCMAKE_SYSTEM_VERSION\u003d16",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_ANDROID_NDK\u003d/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944/build/cmake/android.toolchain.cmake",
+    "-G Ninja",
+    "-DCMAKE_MAKE_PROGRAM\u003d/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-DANDROID_STL\u003dc++_static"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944/build/cmake/android.toolchain.cmake","/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944/build/cmake/platforms.cmake"]},{"isCMake":false,"isTemporary":true,"sources":["../../../.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake","../../../.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake","../../../.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Release","projects":[{"buildDirectory":"/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/release/armeabi-v7a","name":"Project","sourceDirectory":"/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp","targets":[{"artifacts":["/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/build/intermediates/cmake/release/obj/armeabi-v7a/libhello-libs.so"],"buildDirectory":"/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/release/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -Oz -DNDEBUG  -fPIC  ","defines":["hello_libs_EXPORTS"],"includePath":[{"path":"/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/gmath/include"},{"path":"/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/gperf/include"},{"path":"/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/curl/include"}],"isGenerated":false,"language":"CXX","sources":["hello-libs.cpp"]}],"fullName":"libhello-libs.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack","linkLibraries":"-landroid /Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/gmath/lib/armeabi-v7a/libgmath.a /Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/gperf/lib/armeabi-v7a/libgperf.so /Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/curl/lib/armeabi-v7a/libcrypto.a /Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/curl/lib/armeabi-v7a/libssl.a /Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/curl/lib/armeabi-v7a/libz.a /Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/curl/lib/armeabi-v7a/libcurl.a -llog -latomic -lm","linkerLanguage":"CXX","name":"hello-libs","sourceDirectory":"/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp","sysroot":"/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

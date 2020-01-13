@@ -1,0 +1,18 @@
+# ninja log v5
+0	2047	1578899081	CMakeFiles/jni-curl-lib.dir/jni-curl-lib.cpp.o	7012bc4bc74a52de
+2048	2694	1578899082	/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/android-ndk-curl/app/build/intermediates/cmake/debug/obj/x86/libjni-curl-lib.so	ef46b30c2fdf78e6
+1	13	0	clean	d040e9ea8c9a0f61
+2	1011	1578899279	CMakeFiles/jni-curl-lib.dir/jni-curl-lib.cpp.o	7012bc4bc74a52de
+1011	1302	1578899279	/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/android-ndk-curl/app/build/intermediates/cmake/debug/obj/x86/libjni-curl-lib.so	ef46b30c2fdf78e6
+0	15	0	clean	d040e9ea8c9a0f61
+2	1027	1578899488	CMakeFiles/jni-curl-lib.dir/jni-curl-lib.cpp.o	7012bc4bc74a52de
+1028	1279	1578899489	/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/android-ndk-curl/app/build/intermediates/cmake/debug/obj/x86/libjni-curl-lib.so	ef46b30c2fdf78e6
+0	15	0	clean	d040e9ea8c9a0f61
+2	3073	1578899609	CMakeFiles/jni-curl-lib.dir/jni-curl-lib.cpp.o	7012bc4bc74a52de
+3074	3614	1578899609	/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/android-ndk-curl/app/build/intermediates/cmake/debug/obj/x86/libjni-curl-lib.so	ef46b30c2fdf78e6
+1	19	0	clean	d040e9ea8c9a0f61
+2	1308	1578899943	CMakeFiles/jni-curl-lib.dir/jni-curl-lib.cpp.o	7012bc4bc74a52de
+1308	1614	1578899943	/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/android-ndk-curl/app/build/intermediates/cmake/debug/obj/x86/libjni-curl-lib.so	ef46b30c2fdf78e6
+1	15	0	clean	d040e9ea8c9a0f61
+2	1148	1578900347	CMakeFiles/jni-curl-lib.dir/jni-curl-lib.cpp.o	7012bc4bc74a52de
+1148	1465	1578900347	/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/android-ndk-curl/app/build/intermediates/cmake/debug/obj/x86/libjni-curl-lib.so	ef46b30c2fdf78e6

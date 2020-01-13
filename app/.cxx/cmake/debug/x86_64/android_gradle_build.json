@@ -1,0 +1,42 @@
+{
+  "stringTable": {
+    "0": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dhello_libs_EXPORTS -I/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/gmath/include -I/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/gperf/include -I/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/../../../../distribution/curl/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -std=gnu++11 -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944/build/cmake/android.toolchain.cmake",
+    "/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944/build/cmake/platforms.cmake",
+    "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "hello-libs-Debug-x86_64": {
+      "buildCommand": "/Users/dhaniram_kshirsagar/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/debug/x86_64\" hello-libs",
+      "buildType": "debug",
+      "toolchain": "125150589",
+      "abi": "x86_64",
+      "artifactName": "hello-libs",
+      "files": [
+        {
+          "src": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/hello-libs.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/build/intermediates/cmake/debug/obj/x86_64/libhello-libs.so"
+    }
+  },
+  "toolchains": {
+    "125150589": {
+      "cppCompilerExecutable": "/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

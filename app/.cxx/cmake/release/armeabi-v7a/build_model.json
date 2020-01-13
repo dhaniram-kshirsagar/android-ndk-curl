@@ -1,0 +1,71 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs",
+      "sdkFolder": "/Users/dhaniram_kshirsagar/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [
+        "armeabi-v7a"
+      ],
+      "intermediatesFolder": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app",
+      "makeFile": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/src/main/cpp/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/.cxx",
+      "cxxFolder": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx",
+      "ndkFolder": "/Users/dhaniram_kshirsagar/Library/Android/sdk/ndk/20.1.5948944",
+      "ndkVersion": "20.1.5948944",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_static"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "release",
+    "soFolder": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/build/intermediates/cmake/release/lib",
+    "objFolder": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/build/intermediates/cmake/release/obj",
+    "jsonFolder": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/release",
+    "gradleBuildOutputFolder": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/release/armeabi-v7a",
+  "jsonFile": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cxx/release/armeabi-v7a",
+  "objFolder": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/build/intermediates/cmake/release/obj/armeabi-v7a",
+  "buildCommandFile": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/release/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/release/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/release/armeabi-v7a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cxx/release/armeabi-v7a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cxx/release/armeabi-v7a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cxx/release/armeabi-v7a/build_generation_state.json",
+    "cacheKeyFile": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cxx/release/armeabi-v7a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cxx/release/armeabi-v7a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cxx/release/armeabi-v7a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cxx/release/armeabi-v7a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/release/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/dhaniram_kshirsagar/projects/neo-sagemaker/runtime/code/ndk-samples/hello-libs/app/.cxx/cmake/release/armeabi-v7a/compile_commands.json"
+}
